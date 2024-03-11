@@ -37,7 +37,7 @@ Antes de iniciamos o projeto, existe um repositório no GitHub com todo o passo 
 Iniciando o Projeto
 	Abra o Unity Hub e crie um projeto 2D Core, escolha um diretório e de o nome de Flappy Bird Clone.
  
-	Depois do projeto criado, teremos essa tela:
+Depois do projeto criado, teremos essa tela:
  
 *Lembre-se de verificar se o Editor da Unity está conectado com o VS Code e se ele está com as extensões corretas:
 Configurando o Projeto
