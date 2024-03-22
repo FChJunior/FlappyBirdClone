@@ -11,8 +11,8 @@ public class GameManager : MonoBehaviour
     [Header("Game Play")]  // Define uma seção de cabeçalho para variáveis de jogabilidade.
     public static bool inPlay;  // Estado do jogo (se o jogo está em andamento).
     public static bool gameOver;  // Estado do jogo (se o jogo terminou).
-    private float timerDifficulty = 0;  // Contador para controlar a dificuldade do jogo.
-    private float countPoits = 0;  // Contador para controlar a pontuação.
+    [SerializeField] private float timerDifficulty = 0;  // Contador para controlar a dificuldade do jogo.
+    [SerializeField] private float countPoits = 0;  // Contador para controlar a pontuação.
     [SerializeField] private SpawnPipes spawnPipes;  // Referência ao script responsável por criar obstáculos.
     [SerializeField] private ScenaryMove scenaryMove;  // Referência ao script responsável por mover o cenário.
 
@@ -138,8 +138,8 @@ public class GameManager : MonoBehaviour
         if (countPoits == 10)  // Se o contador atingiu 10 pontos.
         {
             countPoits = 0;  // Reinicia o contador.
-            spawnPipes.SetTimer(0.1f);  // Ajusta o intervalo de tempo para a geração de obstáculos.
-            scenaryMove.SetTimer(0.01f);  // Ajusta o intervalo de tempo para o movimento do cenário.
+            spawnPipes.SetTimer(0.2f);  // Ajusta o intervalo de tempo para a geração de obstáculos.
+            scenaryMove.SetTimer(0.05f);  // Ajusta o intervalo de tempo para o movimento do cenário.
         }
     }
 }
