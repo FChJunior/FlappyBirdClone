@@ -14,7 +14,7 @@ Uma vez que a Unity esteja instalada, clone este repositório para a sua máquin
 
 Contribuição
 Contribuições para este projeto são bem-vindas! Se você deseja corrigir um bug, otimizar o código ou adicionar novos recursos, sinta-se à vontade para fazer um fork deste repositório e enviar pull requests. Por favor, assegure-se de que suas contribuições estejam alinhadas com os objetivos do projeto e mantenham os padrões de qualidade de código.
-Irei deixar o link para teste na pagina do Itch.io: 
+Irei deixar o link para teste na pagina do Itch.io: https://kennobii.itch.io/flappy-bird-clone
 
 Créditos
 Este projeto foi criado por [Chagas "Kennobi" Junior]. Ele é inspirado e baseado no jogo original Flappy Bird desenvolvido por Dong Nguyen.
