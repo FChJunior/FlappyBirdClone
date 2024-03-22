@@ -1,48 +1,50 @@
-# FlappyBirdClone
- Esse repositorio foi criado para guardar o processo de produção do clone do Flappy Bird Clone.
+# Flappy Bird Clone
+ Bem-vindo ao repositório do Projeto Flappy Clone Unity!
 
-Recriando o Flappy Bird
- 
-Recriar jogos existentes é uma prática educativa valiosa no desenvolvimento de jogos. Ela permite que os estudantes compreendam profundamente as mecânicas de jogo, design de interação e programação. Ao replicar um jogo, os alunos podem desvendar os desafios enfrentados pelos desenvolvedores originais e aplicar esses aprendizados em suas próprias criações.
-Objetivos:
-•	Entender as mecânicas fundamentais e o design de jogos através da análise e replicação.
-•	Desenvolver habilidades de programação e resolução de problemas.
-•	Apreciar a complexidade e os detalhes envolvidos no desenvolvimento de jogos.
-Atividade com Flappy Bird: Flappy Bird é um exemplo perfeito para esta atividade devido à sua simplicidade e popularidade. Os alunos irão recriar este jogo, focando nos seguintes aspectos:
-1.	Mecânicas de Jogo: Analisar como o jogador interage com o jogo e quais regras definem o sucesso ou o fracasso.
-2.	Design de Níveis: Observar como os obstáculos são posicionados para criar um desafio progressivo.
-3.	Feedback Visual e Sonoro: Examinar como o jogo comunica informações e feedback ao jogador.
-4.	Otimização de Código: Entender a importância de um código limpo e eficiente para jogos com alto desempenho.
-Processo:
-•	Análise Crítica: Começar com uma sessão de jogo e discussão sobre o que torna Flappy Bird atraente e desafiador.
-•	Planejamento de Desenvolvimento: Esboçar o projeto do jogo, incluindo todos os elementos visuais e de áudio.
-•	Codificação: Programar o jogo em uma engine de escolha, implementando as mecânicas e design observados.
-•	Iteração e Polimento: Refinar o jogo com base em testes e feedback, melhorando a jogabilidade e a experiência do usuário.
-Conclusão: Ao final da atividade, os alunos terão uma réplica funcional do Flappy Bird e uma compreensão mais rica do processo de desenvolvimento de jogos. Eles também terão a oportunidade de refletir sobre como podem aplicar esses conceitos e técnicas em seus próprios projetos originais.
-Importância: Esta atividade destaca a importância de aprender através da replicação, uma técnica que pode ser aplicada em várias disciplinas. No contexto do desenvolvimento de jogos, ela prepara os alunos para enfrentar desafios reais e inovações futuras na indústria.
+Visão Geral
+Este repositório abriga um clone do famoso jogo Flappy Bird desenvolvido usando Unity. O principal objetivo deste projeto é servir como uma ferramenta de aprendizado para entusiastas do desenvolvimento de jogos, especialmente aqueles interessados na engine Unity. Ao estudar e analisar este código, você obterá insights sobre conceitos essenciais de desenvolvimento de jogos, como física, manipulação de entrada do usuário, mecânicas de jogo e design de interface de usuário.
 
-	Nessa nota de aula iremos trabalhar o jogo Flappy Bird desde o começo do projeto até o polimento e exportação do jogo. Segue os tópicos que estudaremos nessa nota de aula:
-1.	Iniciando o Projeto: Criando o projeto 2D, selecionando o nome o local de salvamento do projeto.
-2.	Configurando o Projeto: Importado os Assets e criando as pastas e configurando os sprites que serão utilizados.
-3.	Criando o Cenário: Adicionando um background e um ground com movimentação.
-4.	Criando os Obstáculos: Adicionando os obstáculos, programando a movimentação e o Spawn.
-5.	Criando o Personagem: Adicionando o personagem com física, animação e programação do input.
-6.	Game Over: Criando o sistema de Game Over ao colidir com os obstáculos.
-7.	Sistema de Pontuação: Pontuando quando o personagem passa dos obstáculos.
-8.	HUD: Adicionando a Interface de Usuário para mostrar a pontuação.
-9.	Menu: Adicionando um menu inicial e de game over.
-10.	 Polimento: Melhorando os controles, refatorando códigos, adicionando dificuldade.
-11.	 Exportando: PC e Android.
-Antes de iniciamos o projeto, existe um repositório no GitHub com todo o passo a passo dessa aula: https://github.com/FChJunior/FlappyBirdClone. 
-Iniciando o Projeto
-	Abra o Unity Hub e crie um projeto 2D Core, escolha um diretório e de o nome de Flappy Bird Clone.
- 
-Depois do projeto criado, teremos essa tela:
- 
-*Lembre-se de verificar se o Editor da Unity está conectado com o VS Code e se ele está com as extensões corretas:
-Configurando o Projeto
-	Depois do projeto criado, iremos configurar nossa área de trabalho para que possamos começar a trabalhar no projeto. Iremos adicionar novas janelas e criar as pastas necessárias para poder organizar melhor nosso projeto. 
-	Para começarmos, iremos organizar o layout das janelas e adicionar as janelas Animation e Animator que se encontram em Window >>> Animation:
- 
-*Adicione também as janelas de Project Settings, Preferencias, Build Settings que usaremos mais tarde.
-Depois das Janelas adicionadas, iremos organizar o layout. Lembre se que o jogo será exportado tanto para PC quando para Android e por isso iremos utilizar a resolução 16:9 landscape que é na horizontal. Depois de tudo adi
+Recursos
+Recreção fiel da jogabilidade clássica do Flappy Bird.
+Implementado usando o poderoso motor de física da Unity para movimento realista do pássaro e detecção de colisão.
+Controles sensíveis ao toque para dispositivos móveis e controles de teclado para desktop.
+Interface de usuário simples, porém eficaz, para exibir pontuação e mensagens de fim de jogo.
+
+Uma vez que a Unity esteja instalada, clone este repositório para a sua máquina local e abra-o usando a Unity. Explore a estrutura do projeto, scripts e assets para entender como o jogo foi construído.
+
+Contribuição
+Contribuições para este projeto são bem-vindas! Se você deseja corrigir um bug, otimizar o código ou adicionar novos recursos, sinta-se à vontade para fazer um fork deste repositório e enviar pull requests. Por favor, assegure-se de que suas contribuições estejam alinhadas com os objetivos do projeto e mantenham os padrões de qualidade de código.
+Irei deixar o link para teste na pagina do Itch.io: 
+
+Créditos
+Este projeto foi criado por [Chagas "Kennobi" Junior]. Ele é inspirado e baseado no jogo original Flappy Bird desenvolvido por Dong Nguyen.
+
+Feedback
+Se você tiver alguma dúvida, sugestão ou feedback sobre este projeto, sinta-se à vontade para abrir uma issue ou entrar em contato comigo diretamente.
+
+Obrigado pelo seu interesse no Projeto Flappy Clone Unity! Feliz codificação e feliz jogatina! 🎮
+
+# Flappy Bird Clone
+Welcome to the Flappy Clone Unity Project repository!
+
+Overview
+This repository hosts a clone of the famous game Flappy Bird developed using Unity. The main goal of this project is to serve as a learning tool for game development enthusiasts, especially those interested in the Unity engine. By studying and analyzing this code, you will gain insights into essential game development concepts such as physics, user input handling, game mechanics, and user interface design.
+
+Features
+Faithful recreation of the classic Flappy Bird gameplay.
+Implemented using Unity's powerful physics engine for realistic bird movement and collision detection.
+Touch-sensitive controls for mobile devices and keyboard controls for desktop.
+Simple yet effective user interface to display score and end game messages.
+
+Once Unity is installed, clone this repository to your local machine and open it using Unity. Explore the project structure, scripts, and assets to understand how the game was built.
+
+Contribution
+Contributions to this project are welcome! If you wish to fix a bug, optimize the code, or add new features, feel free to fork this repository and send pull requests. Please ensure that your contributions align with the project's goals and maintain code quality standards. I will leave the link for testing on the Itch.io page:
+
+Credits
+This project was created by [Chagas "Kennobi" Junior]. It is inspired by and based on the original Flappy Bird game developed by Dong Nguyen.
+
+Feedback
+If you have any questions, suggestions, or feedback about this project, feel free to open an issue or contact me directly.
+
+Thank you for your interest in the Flappy Clone Unity Project! Happy coding and happy gaming! 
