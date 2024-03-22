@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject newImage;  // Objeto que exibe uma imagem quando o jogador bate o recorde anterior.
     [SerializeField] private Animator medal;  // Controlador de animação para exibir medalhas de conquista.
     [SerializeField] private Animator button;  // Controlador de animação para o botão de pausa.
-    private bool pauseState = false;  // Estado de pausa do jogo.
+    public static bool pauseState = false;  // Estado de pausa do jogo.
     private bool newBest = false;  // Indica se o jogador alcançou uma nova melhor pontuação.
     private bool menu;  // Estado do menu do jogo.
 

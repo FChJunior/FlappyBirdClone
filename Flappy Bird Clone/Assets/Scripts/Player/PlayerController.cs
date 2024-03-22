@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetMouseButtonDown(0)) // Verifica se o botão esquerdo do mouse foi pressionado
+        if (Input.GetMouseButtonDown(0) && !GameManager.pauseState) // Verifica se o botão esquerdo do mouse foi pressionado
         {
             AudioManager.Wing(); // Chama o som de asa batendo
             bird.velocity = Vector2.zero; // Zera a velocidade atual do pássaro
